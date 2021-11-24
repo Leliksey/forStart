@@ -3,7 +3,16 @@
 }
 .btn__wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
+}
+.btn__container {
+    width: 100%;
+    opacity: 0;
+}
+.btn__container__show {
+    width: 100%;
+    opacity: 1;
 }
 .dropdown-list-hide {
     position: absolute;
